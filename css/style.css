@@ -17,7 +17,8 @@ header {
   border-bottom: 1px solid #F0EFFB;
 }
 
-header .nav-link {
+header .nav-link,
+footer .nav-link {
   color: #4F4F4F;
   font-weight: 700;
 }
@@ -176,28 +177,89 @@ ul {
   text-align: right;
 }
 
+.accordion-button:not(.collapsed) {
+  color: #353535;
+}
+
 .accordion-item {
   border: none;
   border-bottom: 1px solid #F1F1F1;
   box-shadow: none;
 }
+
 .accordion-button:not(.collapsed),
-.accordion-button:focus{
+.accordion-button:focus {
   box-shadow: none;
-  background-color: #F1F1F1;
+  background-color: transparent;
   border: none;
   outline: none;
 }
-.accordion-body{
+
+.accordion-body {
   color: #8C8C8C;
   font-size: 16px;
   font-weight: 500;
 }
 
+/* section five */
+.section-five {
+  background-color: #D5DEFF;
+  height: 674px;
+}
+
+.section-five .container {
+  background-color: #fff;
+  height: 420px;
+}
+
+.section-five .icon {
+  height: 150px;
+  width: 150px;
+}
+
+.section-five .box {
+  padding: 2rem;
+}
+
+.section-five .input-box {
+  width: 48%;
+}
+
+input,
+.send {
+  height: 45px;
+}
+
+.form-select:focus,
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.form-select {
+  background-position: 10px;
+  height: 45px !important;
+  font-weight: 700;
+  color: #231F2091;
+}
+
+/* footer */
+footer {
+  height: 100px;
+}
+footer .h-45{
+  height: 45px;
+  /* width: 200px; */
+}
+.h-45 img{
+  object-fit: contain;
+}
 
 /* fonts */
 .font-48 {
   font-size: 48px;
+  line-height: 72px;
 }
 
 .font-28 {
@@ -216,6 +278,17 @@ ul {
   font-size: 20px;
   color: #8C8C8C;
   font-weight: 700;
+}
+
+.font-14,
+.font-color {
+  font-size: 14px;
+  color: #231F2091;
+  font-weight: 700;
+}
+
+.font-color {
+  color: #000929;
 }
 
 .font-12 {

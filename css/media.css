@@ -39,6 +39,7 @@
 
   .font-48 {
     font-size: 40px;
+    line-height: 82px;
   }
 }
 
@@ -96,8 +97,13 @@
     color: #414141;
     font-weight: 700;
   }
+
   .font-48 {
     font-size: 35px;
+    line-height: 50px;
+  }
+  .section-five{
+    height: 650px;
   }
 }
 
@@ -163,13 +169,32 @@
   .section-three .content {
     height: auto !important;
   }
+
   .font-48 {
     font-size: 30px;
+    line-height: 40px;
   }
+
+  .section-five .box {
+    height: auto !important;
+  }
+  input, .send,.form-select {
+    height: 40px !important;
+  }
+  .section-five .w-75{
+    width: 90% !important;
+  }
+  .section-five{
+    height: 600px;
+  }
+  
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .section-five form.box{
+    padding-top: 0 !important;
+  }
   .section-three {
     height: 750px;
   }
@@ -210,8 +235,19 @@
   .w-60 {
     width: 80%;
   }
+
   .font-48 {
     font-size: 25px;
+    line-height: 35px;
+  }
+  .section-five .container{
+    height: auto !important;
+  }
+  .section-five{
+    height: 750px;
+  }
+  footer .nav-link {
+    font-size: 11px;
   }
 }
 
@@ -292,7 +328,35 @@
   .section-three {
     height: 650px;
   }
+
   .font-48 {
     font-size: 22px;
+    line-height: 30px;
+  }
+
+  .font-14,
+  .font-color {
+    font-size: 12px;
+  }
+  .section-five .w-75{
+    width: 100% !important;
+  }
+  .section-five .input-box {
+    width: 100%;
+  }
+  .section-five{
+    height: 800px;
+  }
+  footer .h-45{
+    height: 35px;
+  }
+  footer .social{
+    position: absolute;
+    top: 25px;
+    left: 16px;
+  }
+  footer{
+    padding: 10px 0;
+    height: 90px;
   }
 }
