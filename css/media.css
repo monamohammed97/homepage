@@ -246,8 +246,11 @@
   .section-five{
     height: 750px;
   }
-  footer .nav-link {
-    font-size: 11px;
+  
+  footer .social{
+    position: absolute;
+    top: 25px;
+    left: 16px;
   }
 }
 
@@ -350,13 +353,12 @@
   footer .h-45{
     height: 35px;
   }
-  footer .social{
-    position: absolute;
-    top: 25px;
-    left: 16px;
-  }
+  
   footer{
     padding: 10px 0;
     height: 90px;
+  }
+  footer .nav-link {
+    font-size: 14px;
   }
 }
