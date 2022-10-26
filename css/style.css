@@ -75,7 +75,7 @@ h1 {
   width: 40%;
 }
 
-.section-three .btn ,
+.section-three .btn,
 .hero-section .btn {
   height: 50px;
   padding: 0 2rem;
@@ -146,16 +146,66 @@ h3 {
   padding: 4px;
   border-radius: 8px;
 }
-ul{
+
+ul {
   list-style: none;
 }
 
+
+/* section-four */
+.section-four {}
+
+.accordion-button::after {
+  position: absolute;
+  left: 16px;
+  background-image: url(../images/arrow-down.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/arrow-up.png);
+  transform: none;
+}
+
+.w-60 {
+  width: 60%;
+  margin: auto;
+}
+
+.accordion-header p {
+  width: 95%;
+  text-align: right;
+}
+
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #F1F1F1;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed),
+.accordion-button:focus{
+  box-shadow: none;
+  background-color: #F1F1F1;
+  border: none;
+  outline: none;
+}
+.accordion-body{
+  color: #8C8C8C;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
 /* fonts */
+.font-48 {
+  font-size: 48px;
+}
+
 .font-28 {
   font-size: 28px;
   color: #414141;
   font-weight: 700;
 }
+
 .font-24 {
   font-size: 24px;
   color: #414141;

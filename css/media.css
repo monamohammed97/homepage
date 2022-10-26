@@ -9,27 +9,37 @@
     font-size: 54px;
     line-height: 69.6px;
   }
+
   h3 {
     font-size: 30px;
     line-height: 44px;
   }
+
   .font-24 {
     font-size: 20px;
   }
+
   .section-two .font-20 {
     font-size: 18px;
   }
-  .section-two .box{
+
+  .section-two .box {
     height: 180px;
   }
-  .section-two{
+
+  .section-two {
     height: 579px;
   }
+
   .font-28 {
-  font-size: 24px;
-  color: #414141;
-  font-weight: 700;
-}
+    font-size: 24px;
+    color: #414141;
+    font-weight: 700;
+  }
+
+  .font-48 {
+    font-size: 40px;
+  }
 }
 
 /* // Large devices (desktops, less than 1200px) */
@@ -58,27 +68,36 @@
   .hero-section .btn {
     height: 45px;
   }
+
   h3 {
     font-size: 25px;
     line-height: 34px;
   }
+
   .font-24 {
     font-size: 17px;
   }
+
   .section-two .font-20 {
     font-size: 16px;
   }
-  .section-two .box{
+
+  .section-two .box {
     height: 180px;
   }
+
   .section-two {
     height: 555px;
     margin: 3rem auto;
   }
+
   .font-28 {
     font-size: 20px;
     color: #414141;
     font-weight: 700;
+  }
+  .font-48 {
+    font-size: 35px;
   }
 }
 
@@ -117,32 +136,43 @@
   .hero-section .bg-image img {
     width: 55%;
   }
+
   h3 {
     font-size: 20px;
     line-height: 30px;
   }
+
   .font-24 {
     font-size: 16px;
   }
+
   .section-two {
     height: auto;
   }
+
   .font-28 {
     font-size: 18px;
     color: #414141;
     font-weight: 700;
   }
+
   .section-three {
-    height: 545px;
+    height: 450px;
   }
-  .section-three .content{
+
+  .section-three .content {
     height: auto !important;
   }
-  
+  .font-48 {
+    font-size: 30px;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .section-three {
+    height: 750px;
+  }
 
   .hero-section {
     height: 345px;
@@ -158,26 +188,39 @@
     width: 60%;
   }
 
-  .text{
+  .text {
     width: 70%;
   }
 
   .section-two .font-20 {
     font-size: 14px;
   }
+
   .font-28 {
     font-size: 16px;
     color: #414141;
     font-weight: 700;
   }
-  .section-three img{
+
+  .section-three img {
     height: 400px;
     margin-top: 1rem;
+  }
+
+  .w-60 {
+    width: 80%;
+  }
+  .font-48 {
+    font-size: 25px;
   }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .w-60 {
+    width: 90%;
+  }
+
   .navbar-brand {
     height: 40px;
   }
@@ -205,36 +248,51 @@
     width: 100%;
   }
 
-  h3{
+  h3 {
     font-size: 18px;
   }
+
   .w-40 {
     width: 90%;
   }
-  .text{
+
+  .text {
     width: 40%;
   }
+
   .font-20 {
     font-size: 14px;
   }
-  .font-12{
+
+  .font-12 {
     font-size: 10px;
   }
-  .hero-section .btn{
+
+  .hero-section .btn {
     height: 35px;
     padding: 0 1.5rem;
     font-size: 11px;
   }
-  .section-two .box{
+
+  .section-two .box {
     min-height: 160px;
     height: auto;
     padding: 1rem;
     width: 49%;
   }
-  .box .font-24{
+
+  .box .font-24 {
     width: 100% !important;
   }
-  .section-three img{
+
+  .section-three img {
     height: 300px;
+  }
+
+  .section-three {
+    height: 650px;
+  }
+  .font-48 {
+    font-size: 22px;
   }
 }
