@@ -1,0 +1,240 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1399.98px) {
+
+  .hero-section .bg-image img {
+    width: 65%;
+  }
+
+  h1 {
+    font-size: 54px;
+    line-height: 69.6px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .font-24 {
+    font-size: 20px;
+  }
+  .section-two .font-20 {
+    font-size: 18px;
+  }
+  .section-two .box{
+    height: 180px;
+  }
+  .section-two{
+    height: 579px;
+  }
+  .font-28 {
+  font-size: 24px;
+  color: #414141;
+  font-weight: 700;
+}
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .hero-section {
+    height: 550px;
+  }
+
+  .bg-image {
+    position: relative;
+  }
+
+  .hero-section .bg-image img {
+    width: 60%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .hero-section .btn {
+    height: 45px;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .font-24 {
+    font-size: 17px;
+  }
+  .section-two .font-20 {
+    font-size: 16px;
+  }
+  .section-two .box{
+    height: 180px;
+  }
+  .section-two {
+    height: 555px;
+    margin: 3rem auto;
+  }
+  .font-28 {
+    font-size: 20px;
+    color: #414141;
+    font-weight: 700;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    height: 50px;
+  }
+
+  nav {
+    min-height: 50px;
+  }
+
+  header .nav-link {
+    font-size: 14px;
+  }
+
+  .hero-section {
+    height: 430px;
+  }
+
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+    width: 70%;
+  }
+
+  .font-20 {
+    font-size: 16px;
+  }
+
+  .w-40 {
+    width: 50%;
+  }
+
+  .hero-section .bg-image img {
+    width: 55%;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .font-24 {
+    font-size: 16px;
+  }
+  .section-two {
+    height: auto;
+  }
+  .font-28 {
+    font-size: 18px;
+    color: #414141;
+    font-weight: 700;
+  }
+  .section-three {
+    height: 545px;
+  }
+  .section-three .content{
+    height: auto !important;
+  }
+  
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  .hero-section {
+    height: 345px;
+  }
+
+  h1 {
+    font-size: 25px;
+    line-height: 35px;
+    width: 100%;
+  }
+
+  .w-40 {
+    width: 60%;
+  }
+
+  .text{
+    width: 70%;
+  }
+
+  .section-two .font-20 {
+    font-size: 14px;
+  }
+  .font-28 {
+    font-size: 16px;
+    color: #414141;
+    font-weight: 700;
+  }
+  .section-three img{
+    height: 400px;
+    margin-top: 1rem;
+  }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    height: 40px;
+  }
+
+  nav {
+    min-height: 40px;
+  }
+
+  header .nav-link {
+    font-size: 12px;
+  }
+
+  .nav-link.btn {
+    font-size: 11px;
+  }
+
+
+  .hero-section {
+    height: 330px;
+  }
+
+  h1 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+  .w-40 {
+    width: 90%;
+  }
+  .text{
+    width: 40%;
+  }
+  .font-20 {
+    font-size: 14px;
+  }
+  .font-12{
+    font-size: 10px;
+  }
+  .hero-section .btn{
+    height: 35px;
+    padding: 0 1.5rem;
+    font-size: 11px;
+  }
+  .section-two .box{
+    min-height: 160px;
+    height: auto;
+    padding: 1rem;
+    width: 49%;
+  }
+  .box .font-24{
+    width: 100% !important;
+  }
+  .section-three img{
+    height: 300px;
+  }
+}

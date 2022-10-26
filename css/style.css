@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+header {
+  border-bottom: 1px solid #F0EFFB;
+}
+
+header .nav-link {
+  color: #4F4F4F;
+  font-weight: 700;
+}
+
+header .nav-link.active,
+header .fa-brands:hover,
+header .nav-link:hover {
+  color: #2B59FF !important;
+}
+
+header .fa-brands {
+  color: #7F7D7E;
+}
+
+nav {
+  min-height: 96px;
+}
+
+.btn {
+  font-size: 14px;
+  background-color: #2B59FF;
+  color: #fff !important;
+}
+
+.btn:hover {
+  border: 1px solid #2B59FF;
+  background-color: #fff;
+  color: #2B59FF !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}
+
+/* hero section */
+.hero-section {
+  height: 637px;
+  background-color: #F9F8F6;
+}
+
+.hero-section .bg-image img {
+  width: 55%;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 89.6px;
+  width: 50%;
+  font-weight: 700;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.section-three .btn ,
+.hero-section .btn {
+  height: 50px;
+  padding: 0 2rem;
+}
+
+.hero-section .img-text {
+  width: 45px;
+  height: 45px;
+}
+
+/* section-two */
+
+.section-two {
+  height: 630px;
+  margin: 5rem auto;
+}
+
+.section-two img {
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.section-two .box {
+  width: 48%;
+  height: 191.11px;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.bg {
+  background: #EDEDED;
+}
+
+.section-two .box img {
+  width: 45px;
+  height: 45px;
+}
+
+
+/* section-three */
+.section-three {
+  height: 600px;
+}
+
+.section-three img {
+  object-fit: contain;
+  height: 80%;
+}
+
+.circle i {
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #fff;
+}
+
+.fa-check:before {
+  color: #FF9E62;
+}
+
+.circle {
+  background: #FFE6D7;
+  padding: 4px;
+  border-radius: 8px;
+}
+ul{
+  list-style: none;
+}
+
+/* fonts */
+.font-28 {
+  font-size: 28px;
+  color: #414141;
+  font-weight: 700;
+}
+.font-24 {
+  font-size: 24px;
+  color: #414141;
+  font-weight: 700;
+}
+
+.font-20 {
+  font-size: 20px;
+  color: #8C8C8C;
+  font-weight: 700;
+}
+
+.font-12 {
+  font-size: 12px;
+  color: #555555;
+  font-weight: 700;
+}
