@@ -274,6 +274,9 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .w-sm-100{
+    width: 100%;
+  }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -314,7 +317,7 @@
   }
 
   .w-40 {
-    width: 90%;
+    width: 100%;
   }
 
  
