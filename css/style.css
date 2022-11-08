@@ -82,6 +82,7 @@ h1 {
   padding: 0 2rem;
 }
 
+header .img-text,
 .hero-section .img-text {
   width: 45px;
   height: 45px;
@@ -255,6 +256,7 @@ footer .h-45{
 .h-45 img{
   object-fit: contain;
 }
+
 
 /* fonts */
 .font-48 {

@@ -192,15 +192,28 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .hero-section .bg-img img {
+    height: 300px;
+  }
   .section-five form.box{
     padding-top: 0 !important;
   }
   .section-three {
-    height: 750px;
+    height: 718px;
   }
-
+  .hero-section.one{
+    display: none;
+  }
+  .hero-section.two,.text-box,.img-check{
+    display: flex !important;
+  }
+  .img-check{
+    height: 30px !important;
+    margin: 0 0 0 10px !important;
+    width: 30px;
+  }
   .hero-section {
-    height: 345px;
+    height: auto;
   }
 
   h1 {
@@ -210,11 +223,7 @@
   }
 
   .w-40 {
-    width: 60%;
-  }
-
-  .text {
-    width: 70%;
+    width: auto;
   }
 
   .section-two .font-20 {
@@ -252,6 +261,19 @@
     top: 25px;
     left: 16px;
   }
+  .text {
+    width: auto;
+  }
+  .image, .section-four,.footer-none,.circle{
+    display: none !important;
+  }
+  footer{
+    height: 70px;
+  }
+  .info{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -277,9 +299,9 @@
   }
 
 
-  .hero-section {
+  /* .hero-section {
     height: 330px;
-  }
+  } */
 
   h1 {
     font-size: 20px;
@@ -295,9 +317,7 @@
     width: 90%;
   }
 
-  .text {
-    width: 40%;
-  }
+ 
 
   .font-20 {
     font-size: 14px;
@@ -308,7 +328,6 @@
   }
 
   .hero-section .btn {
-    height: 35px;
     padding: 0 1.5rem;
     font-size: 11px;
   }
@@ -325,11 +344,11 @@
   }
 
   .section-three img {
-    height: 300px;
+    height: 326px;
   }
 
   .section-three {
-    height: 650px;
+    height: 645px;
   }
 
   .font-48 {
@@ -348,7 +367,7 @@
     width: 100%;
   }
   .section-five{
-    height: 800px;
+    height: 700px;
   }
   footer .h-45{
     height: 35px;
@@ -356,9 +375,13 @@
   
   footer{
     padding: 10px 0;
-    height: 90px;
+    /* height: 90px; */
   }
   footer .nav-link {
     font-size: 14px;
   }
+  .nav-link{
+    text-align: center;
+  }
+ 
 }
